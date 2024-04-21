@@ -35,7 +35,6 @@
                 background-color: #202127;
                 justify-content: center;
                 align-items: flex-start;
-                /*border: 1px solid #ffffff;*/
             }
             .logo {
                 font-size: 64px;
@@ -61,10 +60,20 @@
             .footer-links {
                 position: absolute;
                 left: 50%;
-                bottom: 5%;
-                font-size: 14px;
+                bottom: 20px;
                 transform: translateX(-50%);
+                font-size: 14px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
+            .footer-links a,
+            .footer-links .dumbbell-icon {
+                margin: 0 30px;
+                text-decoration: none;
+                color: white;
+            }
+            .dumbbell-icon
 
             @media (min-width: 768px) {
                 .container {
@@ -91,7 +100,9 @@
             <img src="/static/images/app-screenshots.svg" alt="App Screenshots" class="app-screenshot">
         </div>
         <div class="footer-links">
-            <a href="#privacy">Privacy Policy</a> | <a href="#contact">Contact</a>
+            <a href="#privacy">Privacy Policy</a>
+            <img src="/static/images/dumbbell.svg" alt="Dumbbell" class="dumbbell-icon">
+            <a href="#contact" class="contact">Contact</a>
         </div>
     </body>
     </html>
