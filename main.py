@@ -10,8 +10,8 @@ def get_root_page():
 
 @application.route("/privacy-policy")
 def get_privacy_policy():
-    return render_template('privacy_policy.html')
+    return render_template("privacy_policy.html")
 
 
 if __name__ == "__main__":
-    application.run(host='0.0.0.0')
+    application.run(host="0.0.0.0")
