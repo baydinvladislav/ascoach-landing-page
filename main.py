@@ -10,4 +10,4 @@ def get_root_page():
 
 
 if __name__ == "__main__":
-   application.run(host='0.0.0.0')
+    application.run(host='0.0.0.0')
