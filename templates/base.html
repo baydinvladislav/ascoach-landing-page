@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}AsCoach{% endblock %} - Fitness Online</title>
+</head>
+<body>
+    {% block content %}
+    {% endblock %}
+
+    <div class="footer-links">
+        <a href="{{ url_for('get_privacy_policy') }}">Privacy Policy</a>
+        <img src="{{ url_for('static', filename='images/dumbbell.svg') }}" alt="Dumbbell" class="dumbbell-icon">
+        <a href="#contact" class="contact">Contact</a>
+    </div>
+</body>
+</html>
