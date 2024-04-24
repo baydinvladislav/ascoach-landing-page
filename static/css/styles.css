@@ -60,6 +60,11 @@ body {
     margin-left: 5%;
     margin-top: 2%;
 }
+.app-screenshots-container img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+}
 .footer-links {
     position: absolute;
     left: 50%;
