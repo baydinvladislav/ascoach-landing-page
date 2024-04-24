@@ -1,33 +1,24 @@
 .container-privacy-policy {
-    max-height: 800px;
-    overflow-y: auto;
     width: 80%;
-    max-width: 800px;
-    margin: auto;
-    background-color: #222;
-    padding: 20px;
-    box-sizing: border-box;
-    border-radius: 10px;
+    margin: 2% 2% 2% 5%;
 }
 
 h1, h2 {
-    color: #d0d0d0;
+    color: #FFFFFF;
 }
 
 p, li {
-    color: #d0d0d0;
+    color: #FFFFFF;
 }
 
 h1 {
     font-size: 24px;
-    text-align: center;
-    margin-bottom: 20px;
+    text-align: left;
+    margin-bottom: 2%;
 }
 
 h2 {
     font-size: 18px;
-    margin-top: 20px;
-    margin-bottom: 10px;
 }
 
 p, ul {
@@ -35,8 +26,7 @@ p, ul {
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+    padding: 0 0 0 1%;
 }
 
 li {
@@ -44,5 +34,5 @@ li {
 }
 
 .section {
-    margin-bottom: 1em;
+    margin-bottom: 1%;
 }

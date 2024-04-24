@@ -5,10 +5,18 @@
 {% block content %}
 <div class="container">
     <div class="logo">AsCoach</div>
-    <p class="slogan">Platforms where personal fitness trainers help you achieve your goals by providing personalized training plans that will make your workouts as effective as possible</p>
+    <p class="slogan">
+        Platforms where personal fitness trainers help you achieve your goals by providing personalized training plans
+        that will make your workouts as effective as possible
+    </p>
     <a href="#download" class="download-button">Download App</a>
 </div>
 <div class="app-screenshots-container">
     <img src="{{ url_for('static', filename='images/app-screenshots.svg') }}" alt="App Screenshots" class="app-screenshot">
+</div>
+<div class="footer-links">
+    <a href="{{ url_for('get_privacy_policy') }}">Privacy Policy</a>
+    <img src="{{ url_for('static', filename='images/dumbbell.svg') }}" alt="Dumbbell" class="dumbbell-icon">
+    <a href="#contact" class="contact">Contact</a>
 </div>
 {% endblock %}
