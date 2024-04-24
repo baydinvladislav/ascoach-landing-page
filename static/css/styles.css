@@ -63,7 +63,7 @@ body {
 .footer-links {
     position: absolute;
     left: 50%;
-    bottom: 20px;
+    bottom: 2%;
     transform: translateX(-50%);
     font-size: 14px;
     display: flex;
