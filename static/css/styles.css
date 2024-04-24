@@ -11,6 +11,17 @@ body {
     height: 100vh;
     text-align: left;
 }
+
+@media (max-width: 767px) {
+    body {
+        flex-direction: column-reverse;
+    }
+    .app-screenshots-container img {
+        width: 80%;
+        height: auto;
+    }
+}
+
 .container {
     flex-direction: column;
     display: flex;
