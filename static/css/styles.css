@@ -12,16 +12,6 @@ body {
     text-align: left;
 }
 
-@media (max-width: 767px) {
-    body {
-        flex-direction: column-reverse;
-    }
-    .app-screenshots-container img {
-        width: 80%;
-        height: auto;
-    }
-}
-
 .container {
     flex-direction: column;
     display: flex;
@@ -117,5 +107,43 @@ body {
     }
     .slogan {
         font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        flex-direction: column-reverse;
+    }
+    .app-screenshots-container{
+        width: 100%;
+        height: auto;
+        margin-top: 3%;
+        margin-left: 5%;
+        min-width: 400px;
+    }
+    .app-screenshots-container img {
+        width: 80%;
+        height: auto;
+    }
+    .container {
+        margin-top: 5%;
+        margin-bottom: 55%;
+    }
+    .logo {
+        font-size: 30px;
+        font-weight: bold;
+        margin: 0;
+    }
+    .slogan {
+        font-size: 15px;
+    }
+    .download-button {
+        padding: 0 20px 10px;
+    }
+    .download-button a {
+        padding-top: 12px;
+    }
+    .download-button img {
+        padding-top: 10px;
     }
 }
