@@ -50,18 +50,23 @@ body {
 
 .download-button {
     background-color: #FFFFFF;
-    padding: 8px 10px 8px 10px;
+    padding: 8px 10px;
     border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     cursor: pointer;
-    width: 35%;
+    width: 30%;
 }
 .download-button a {
     text-decoration: none;
     color: #000000;
-    font-size: 11px;
+    font-size: 18px;
 }
 .download-button img {
-    width: 10%;
+    width: 25px;
+    margin-left: 15px;
 }
 
 .app-screenshots-container {
