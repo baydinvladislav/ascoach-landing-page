@@ -9,7 +9,10 @@
         Platforms where personal fitness trainers help you achieve your goals by providing personalized training plans
         that will make your workouts as effective as possible
     </p>
-    <a href="#download" class="download-button">Download App</a>
+    <div class="download-button">
+        <a href="#download">Download App</a>
+        <img src="{{ url_for('static', filename='images/apple-icon.png') }}" alt="AppStore">
+    </div>
 </div>
 <div class="app-screenshots-container">
     <img src="{{ url_for('static', filename='images/app-screenshots.png') }}" alt="App Screenshots" class="app-screenshot">

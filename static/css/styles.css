@@ -47,15 +47,23 @@ body {
 .slogan {
     font-size: 18px;
 }
+
 .download-button {
     background-color: #FFFFFF;
-    color: #000000;
-    padding: 15px 32px;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 8px;
+    padding: 8px 10px 8px 10px;
+    border-radius: 6px;
     cursor: pointer;
+    width: 35%;
 }
+.download-button a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 11px;
+}
+.download-button img {
+    width: 10%;
+}
+
 .app-screenshots-container {
     margin-left: 5%;
     margin-top: 2%;
