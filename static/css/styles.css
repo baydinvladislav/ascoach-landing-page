@@ -94,12 +94,11 @@ body {
     text-decoration: none;
     color: white;
 }
-.dumbbell-icon
 
 @media (min-width: 768px) {
     .container {
         width: 40%;
-        margin-top: 12%;
+        margin-top: 15%;
         margin-left: 10%;
     }
     .logo {
