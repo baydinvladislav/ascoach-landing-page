@@ -81,19 +81,29 @@
 }
 .footer-links {
     position: absolute;
+    flex-direction: row;
     left: 50%;
     bottom: 2%;
     transform: translateX(-50%);
     font-size: 14px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
-.footer-links a,
-.footer-links .dumbbell-icon {
-    margin: 0 30px;
+.privacy-link {
+    width: 90px;
     text-decoration: none;
     color: white;
+}
+.contact {
+    width: 90px;
+    text-decoration: none;
+    color: white;
+}
+.divider {
+    margin: 0 30px;
+    text-decoration: none;
+    color: #666666;
 }
 
 @media (min-width: 768px) {
