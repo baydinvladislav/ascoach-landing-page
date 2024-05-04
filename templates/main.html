@@ -21,9 +21,9 @@
     </div>
 
     <div class="footer-links">
-        <a href="{{ url_for('get_privacy_policy') }}" class="privacy-link">Privacy Policy</a>
+        <a href="{{ url_for('get_privacy_policy_page') }}" class="privacy-link">Privacy Policy</a>
         <p class="divider">|</p>
-        <a href="mailto:support@ascoach.online" class="contact">support@ascoach.online</a>
+        <a href="{{ url_for('get_contact_page') }}" class="contact">Contact Us</a>
     </div>
 </body>
 {% endblock %}

@@ -9,8 +9,13 @@ def get_root_page():
 
 
 @application.route("/privacy-policy")
-def get_privacy_policy():
+def get_privacy_policy_page():
     return render_template("privacy_policy.html")
+
+
+@application.route("/contact-us")
+def get_contact_page():
+    return render_template("contact_us.html")
 
 
 if __name__ == "__main__":
