@@ -160,7 +160,7 @@
         height: auto;
         width: 70%;
         position: absolute;
-        justify-content: left;
+        justify-content: center;
         flex-direction: row;
         font-size: 14px;
         display: flex;
